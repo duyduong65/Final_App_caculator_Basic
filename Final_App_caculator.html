@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final_App_Caculator</title>
+
+    <style>
+        input {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<form>
+        <fieldset>
+            <legend>Final Caculator</legend>
+            <table>
+                <tr>
+                    <th colspan="4"> <input id="display" type="text"> </th>
+                </tr>
+                <tr>
+                    <td> <button type="button" id="one" value="1" onclick="Display('1')"> 1 </button> </td>
+                    <td> <button type="button" id="two" value="2" onclick="Display('2')"> 2 </button> </td>
+                    <td> <button type="button" id="three" value="3" onclick="Display('3')"> 3 </button> </td>
+                    <td> <button type="button" id="plus" value="+" onclick="Display('+')"> + </button> </td>
+                </tr>
+                <tr>
+                    <td> <button type="button" id="four" value="4" onclick="Display('4')"> 4 </button> </td>
+                    <td> <button type="button" id="five" value="5" onclick="Display('5')"> 5 </button> </td>
+                    <td> <button type="button" id="six" value="6" onclick="Display('6')"> 6 </button> </td>
+                    <td> <button type="button" id="subtraction" value="-" onclick="Display('-')"> - </button> </td>
+                </tr>
+                <tr>
+                    <td> <button type="button" id="seven" value="7" onclick="Display('7')"> 7 </button> </td>
+                    <td> <button type="button" id="eight" value="8" onclick="Display('8')"> 8 </button> </td>
+                    <td> <button type="button" id="nine" value="9" onclick="Display('9')"> 9 </button> </td>
+                    <td> <button type="button" id="mutilplication" value="=" onclick="Display('*')"> * </button> </td>
+                </tr>
+                <tr>
+                    <td> <button type="button" id="equal" value="=" onclick="eval_1()"> = </button> </td>
+                    <td> <button type="reset">AC</button>  </td>
+                    <td> <button type="button" id="clear" onclick="clear_1()"> C </button> </td>
+                    <td> <button type="button" id="division" value="/" onclick="Display('/')"> / </button> </td>
+                </tr>
+            </table>
+        </fieldset>
+</form>
+        <script src="Final_caculator.js"></script>
+</body>
+</html>
